@@ -1,0 +1,5 @@
+CREATE TABLE customer (
+  ID int AUTO_INCREMENT PRIMARY KEY,
+  NAME varchar(255) NOT NULL,
+  EMAIL varchar(100) NOT NULL UNIQUE
+);
